@@ -1,0 +1,93 @@
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center
+  }
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+  }
+  .modal-card{
+    width: 750px;
+    height: 600px;
+  }
+  
+  div.list-card {
+    height: 520px;
+    overflow-y: scroll;
+  }
+
+  #card  {
+    box-shadow:1px 2px 4px #d5d6dc
+  }
+  #card:hover {
+    box-shadow:1px 2px 4px #aeaeae
+  }
+
+  .showme {
+    margin-left: 30px;
+    display: none;
+  }
+
+  #card:hover .showme {
+    display: block;
+  }
+
+  .search {
+    padding: 8px;
+    position: relative;
+    color: #aaa;
+    font-size: 28px;
+  }
+  
+  .search input {
+    border: 2px solid #e6e6e6;
+    width:734px;
+    height: 50px;
+  }
+
+  .search img {
+    width:40px;
+    height: 40px;
+  }
+  
+  .search input { 
+    padding-right: 60px;
+  }
+
+  .search .fa-search { 
+    position: absolute;
+    top: 12px;
+  }
+
+  .search .fa-search {
+    left:700px;
+  }
+
+  #bar {
+    border-radius: 20px;
+    height: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #f3701a;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  #bar::-webkit-progress-bar {
+    background-color: #e4e4e4;
+    border-radius: 20px;
+  }
+  #bar::-webkit-progress-value {
+    border-radius: 20px;
+    background-color: #f3701a;
+  }
